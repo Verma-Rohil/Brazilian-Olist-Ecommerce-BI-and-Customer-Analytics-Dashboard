@@ -1,0 +1,22 @@
+{
+  "name": "E-Commerce Analytics",
+  "dataColors": [
+    "#A29BFE", "#FD7272", "#00CEC9", "#FDCB6E",
+    "#55EFC4", "#6C5CE7", "#E17055", "#0984E3"
+  ],
+  "background": "#F5F6FA",
+  "foreground": "#2D3436",
+  "tableAccent": "#A29BFE",
+  "good": "#00B894",
+  "bad": "#FF6B6B",
+  "neutral": "#636E72",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+        "border": [{ "color": { "solid": { "color": "#E8ECF1" } }, "show": true }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#00000010" } } }]
+      }
+    }
+  }
+}
