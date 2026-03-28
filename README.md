@@ -64,24 +64,16 @@ The end result is an operational Power BI dashboard made for e-commerce executiv
 ### Page 1: Revenue Overview
 High-level KPIs including total revenue, order volume, average order value, and top performing product categories.
 
-![Revenue Overview](docs/screenshots/01_revenue_overview.png)
-
 ### Page 2: Customer Segmentation
 A deep dive into customer behavior, using RFM clustering to identify "Champions" versus "Loyal Customers," driving targeted retention strategies.
-
-![Customer Segmentation](docs/screenshots/02_customer_segmentation.png)
 
 ### Page 3: Delivery & Logistics
 The operational view tracking on-time delivery percentages, average delivery days, and the critical impact of fulfillment speed on customer reviews.
 
-![Delivery Logistics](docs/screenshots/03_delivery_logistics.png)
-
 ### Page 4: Product & Seller Performance
 A granular look at the thousands of sellers on the platform, identifying top performers, analyzing pricing versus reviews, and tracking average freight costs.
 
-![Product Seller Performance](docs/screenshots/04_product_seller_performance.png)
-
-## 🔍 Dashboard Observations & Key Findings
+## Observations
 
 Based on the interactive dashboards, several critical insights emerged regarding customer behavior and operational bottlenecks:
 
@@ -96,6 +88,3 @@ Based on the interactive dashboards, several critical insights emerged regarding
    
 4. **Seller Performance Discrepancies:**
    While the marketplace has over 3,000 sellers, the top 5 sellers alone command a massive portion of the $15.8M revenue. Furthermore, categories like `cds_dvds_musicals` attract the highest average reviews (4.67), whereas other high-volume categories struggle to maintain quality, hinting that seller vetting needs strict enforcement in fast-moving consumer goods.
-
-## 💼 Resume Impact Statement
-> **Built an end-to-end E-Commerce BI platform** analyzing 100K+ orders using MySQL (star schema, 22 advanced queries with CTEs & window functions), Python (K-Means clustering with 0.71 silhouette score, 3 hypothesis tests at p<0.001), and Power BI (4-page dashboard with 15 DAX measures), **identifying that late deliveries reduce review scores by 39% (Cohen's d=1.13)** and that Month-1 customer retention is only 4.7%, driving actionable recommendations for loyalty programs.
