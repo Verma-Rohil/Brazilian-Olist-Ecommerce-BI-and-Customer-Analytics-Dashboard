@@ -64,14 +64,22 @@ The end result is an operational Power BI dashboard made for e-commerce executiv
 ### Page 1: Revenue Overview
 High-level KPIs including total revenue, order volume, average order value, and top performing product categories.
 
+![Revenue Overview](docs/screenshots/01_revenue_overview.png)
+
 ### Page 2: Customer Segmentation
 A deep dive into customer behavior, using RFM clustering to identify "Champions" versus "Loyal Customers," driving targeted retention strategies.
+
+![Customer Segmentation](docs/screenshots/02_customer_segmentation.png)
 
 ### Page 3: Delivery & Logistics
 The operational view tracking on-time delivery percentages, average delivery days, and the critical impact of fulfillment speed on customer reviews.
 
+![Delivery Logistics](docs/screenshots/03_delivery_logistics.png)
+
 ### Page 4: Product & Seller Performance
 A granular look at the thousands of sellers on the platform, identifying top performers, analyzing pricing versus reviews, and tracking average freight costs.
+
+![Product Seller Performance](docs/screenshots/04_product_seller_performance.png)
 
 ## Observations
 
