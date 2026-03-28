@@ -81,5 +81,21 @@ A granular look at the thousands of sellers on the platform, identifying top per
 
 ![Product Seller Performance](docs/screenshots/04_product_seller_performance.png)
 
+## 🔍 Dashboard Observations & Key Findings
+
+Based on the interactive dashboards, several critical insights emerged regarding customer behavior and operational bottlenecks:
+
+1. **The "Champion" Disproportion:** 
+   Our RFM segmentation revealed that a tiny fraction of customers (**3%**, labeled as "Champions") drive **over 5.5%** of the total revenue. These users order more frequently (avg 2.11 vs 1.03) and spend nearly double the average monetary value. This indicates a massive opportunity for a VIP loyalty program.
+   
+2. **Delivery Speed Determines Satisfaction:**
+   There is a severe penalty for poor logistics. Customers who receive their packages "Very Early" award an average review score of **4.3**, whereas "Very Late" deliveries drag the score down to a catastrophic **1.8**. Late deliveries sit at 7.9% overall, but certain states like AL (23%) and MA (18.8%) face systemic logistical failures that urgently need supply chain intervention.
+   
+3. **Revenue Concentration:**
+   The revenue heavily concentrates in specific verticals. `health_beauty`, `watches_gifts`, and `bed_bath_table` are the dominant categories. Geographically, São Paulo (SP) alone generated $5.9M, which is nearly equal to the rest of the top 10 states combined, proving it should be the epicenter for any targeted marketing and local warehousing optimizations.
+   
+4. **Seller Performance Discrepancies:**
+   While the marketplace has over 3,000 sellers, the top 5 sellers alone command a massive portion of the $15.8M revenue. Furthermore, categories like `cds_dvds_musicals` attract the highest average reviews (4.67), whereas other high-volume categories struggle to maintain quality, hinting that seller vetting needs strict enforcement in fast-moving consumer goods.
+
 ## 💼 Resume Impact Statement
 > **Built an end-to-end E-Commerce BI platform** analyzing 100K+ orders using MySQL (star schema, 22 advanced queries with CTEs & window functions), Python (K-Means clustering with 0.71 silhouette score, 3 hypothesis tests at p<0.001), and Power BI (4-page dashboard with 15 DAX measures), **identifying that late deliveries reduce review scores by 39% (Cohen's d=1.13)** and that Month-1 customer retention is only 4.7%, driving actionable recommendations for loyalty programs.
